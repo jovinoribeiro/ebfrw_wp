@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="<?php bloginfo('charset'); ?>>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="<?php bloginfo('description'); ?>">
+
+
+    <title>
+      EBFRW
+    </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+
+    <style>
+      .showcase {
+        background:url(img/showcase.jpg) no-repeat center center;
+        background-size: cover;
+      }
+
+      nav .container-fluid {
+        padding: 0px 50px;
+      }
+      nav {
+        text-transform: uppercase;
+      }
+      .logo-small {
+        color: #4da6ff;
+        font-size: 50px;
+      }
+      .logo {
+        font-size: 200px;
+        color: #4da6ff;
+      }
+      @media screen and (max-width: 768px) {
+        .col-sm-4 {
+            text-align: center;
+            margin: 25px 0;
+        }
+      }
+
+      .thumbnail {
+        padding: 0 0 15px 0;
+        border: none;
+        border-radius: 0;
+      }
+      .thumbnail img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+      }
+      .navbar-fixed-top {
+        top:0;
+        <!-- margin-top:100px; -->
+       }
+
+       #nav2.affix {
+          position: fixed;
+          top: 0;
+          width: 100%;
+          z-index:10;
+      }
+    </style>
+
+  </head>
+
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <div id="headershowcase">
+    <nav id="nav1" class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="<?php echo home_url(); ?>">
+            EBFRW
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#myPage">Home</a></li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Pride Run</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i> Contact Us</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="showcase" style='margin-bottom:0px; background-color:#4da6ff;'>
+      <div class="container">
+        <img src="http://eastbayfrontrunners.org/img/ebfrw_logo.png">
+      </div>
+      <div class="container">
+        <h1>Custom Bootstrap Wordpress Theme</h1>
+        <p>Some cool text'</p>
+        <a href="#about" class="btn btn-primary btn-lg">Get Started</a>
+      </div>
+    </section>
+  </div>
+    <nav id="nav2" class="navbar navbar-default" role="navigation">
+      <div class="container-fluid text-center">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">Who are we?</a></li>
+            <li><a href="#saturday_run">Where is our next Saturday run?</a></li>
+            <li><a href="#activities">What fun things do we do?</a></li>
+            <li><a href="#priderun">Pride Run</a></li>
+            <li><a href="#membership">Membership</a></li>
+            <li><a href="#boardmembers">Board Members</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="about" class="container-fluid">
+            <div class="row">
+        <div class="col-sm-7">
+          <h2>About Us</h2>
+          <h4>East Bay Front Runners & Walkers is an all-volunteer, nonprofit running club whose mission is to promote the sports of running and walking and related athletic events for the Lesbian, Gay, Bisexual and Transgender community along with their allies and supporters.</h4>
+          <p>We get together to run and walk in scenic locations on the east side of San Francisco Bay every Saturday morning at 9:00. Runners generally complete 3-7 miles and walkers complete 2-4 miles.</p>
+          <p>We welcome people of all athletic abilities, from casual walker to competitive runner, and everyone in between. We take pride in being friendly and inviting, and we encourage you to come out and see for yourself.</p>
+          <a href="#contact" class="btn btn-default btn-lg">Get in Touch</a>
+        </div>
+        <div class="col-sm-4 col-sm-offset-1">
+          <!-- <img class="img-circle img-responsive" src="http://eastbayfrontrunners.org/img/EBFRW_2014_05_17.png"> -->
+          <img class="img-rounded  img-responsive" src="http://eastbayfrontrunners.org/img/EBFRW_2014_05_17.png">
+          <!-- <img class="img-rounded img-thumbnail" src="http://eastbayfrontrunners.org/img/EBFRW_2014_05_17.png"> -->
+        </div>
+      </div>
+    </div>
+
+    <div id="saturday_run" class="jumbotron text-center slideanim">
+      <h3>JOIN US THIS COMING SATURDAY. WE WILL BE AT...</h3>
+      <h1><strong>LAKE MERRIT</strong></h1>
+      <button class="btn btn-default">Directions</button>
+    </div>
+
+    <div id="activities" class="container-fluid text-center bg-grey">
+      <h2>What we do</h2>
+      <!-- <h4>Lots of Fun things</h4> -->
+      <br />
+      <div class="row slideanim">
+        <div class="col-sm-4">
+          <i class="fa fa-calendar logo-small" aria-hidden="true"></i>
+          <h4>SATURDAY RUNS</h4>
+          <p>Our running and walking events are non-competitive and self-paced. Runners complete between 3 to 7 miles, and walkers 2 to 4 miles. It usually lasts 45 minutes to one hour. All paths and trails are easily accessible to runners and walkers alike.</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fa fa-cutlery logo-small" aria-hidden="true"></i>
+          <h4>BRUNCH</h4>
+          <p>We follow our exercise with brunch at one of several great local restaurants.</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fa fa-glass logo-small" aria-hidden="true"></i>
+          <h4>SOCIAL GATHERINGS</h4>
+          <p>While the Saturday morning run/walk is our club’s staple, we also enjoy pot lucks, movie nights, museum tours, ballgames, wine tastings, and occasional weekend getaways.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid text-center bg-grey slideanim">
+      <!-- <h2>WATCH US IN ACTION</h2>
+      <h4>Us out having fun</h4> -->
+      <div class="row text-center ">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="http://eastbayfrontrunners.org/img/anniversary/an_7.jpg">
+            <p><strong>30th Anniversary Party</strong</p>
+            <p>Smile everyone</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="http://eastbayfrontrunners.org/img/anniversary/an_2.jpg">
+            <p><strong>30th Anniversary Party</strong</p>
+            <p>Having a good time</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="http://eastbayfrontrunners.org/img/anniversary/an_5.jpg">
+            <p><strong>30th Anniversary Party</strong</p>
+            <p>Hmm. Yummy.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="priderun" class="container-fluid">
+      <div class="row slideanim">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img class="img-circle img-responsive" style="max-width: 70%; height:50%;" src="http://eastbayfrontrunners.org/img/flyer_no_date.jpg">
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <h2>Pride Run</h2>
+          <h4>EBFRW's Annual Pride Run and Walk is scheduled for Oct. 14th, 2017 at 9AM, and we want you to be a part of it!</h4>
+          <p>Join us at the recently renovated and beautiful Lake Merritt in downtown Oakland for a 10K run, 5K run, or 5K walk.</p>
+          <p>Every registered participant will receive a pair of rainbow-colored EBFRW running socks. Don't miss out!</p>
+          <a href="priderun" class="btn btn-info btn-lg">More Information</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="membership" class="container-fluid bg-grey">
+      <div class="row slideanim">
+        <div class="col-sm-8">
+          <h2>Membership</h2>
+          <h4>Membership in East Bay Front Runners and Walkers is open to everyone.</h4>
+          <p>EBFRW members have access to our Members Only Yahoo Group, members directory, and discounts at local partner businesses.</p>
+          <a href="membership" class="btn btn-info btn-lg">More Information</a>
+        </div>
+        <div class="col-sm-4">
+          <i class="fa fa-id-card logo" aria-hidden="true"></i>
+
+          <!-- <div class="thumbnail">
+            <img class="img-rounded" style="max-width: 70%; height:50%;"
+              src="http://heard.org/home/wp-content/uploads/2013/04/membership_featuredImage_web.png">
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div id="boardmembers" class="container-fluid text-center">
+      <h2>Board Members</h2>
+      <div class="row text-center slideanim">
+        <div class="col-sm-2 col-ms-offset-1 col-md-offset-1">
+          <div class="thumbnail">
+            <img class="img-circle" src="http://eastbayfrontrunners.org/img/officers/president.jpg" alt="">
+            <p><strong>DARLENE A. HALL, PH.D.</strong></p>
+            <p>President</p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="thumbnail">
+            <img class="img-circle" src="http://eastbayfrontrunners.org/img/officers/vice_president.jpg" alt="">
+            <p><strong>DON FRITSCHE</strong></p>
+            <p>Vice President</p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="thumbnail">
+            <img class="img-circle" src="http://eastbayfrontrunners.org/img/officers/secretary.jpg" alt="">
+            <p><strong>DONNA WOLL</strong></p>
+            <p>Secretary</p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="thumbnail">
+            <img class="img-circle" src="http://eastbayfrontrunners.org/img/officers/officer_at_large.jpg" alt="">
+            <p><strong>ALLYSSA ADAIR</strong></p>
+            <p>Officer-at-large</p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="thumbnail">
+            <img class="img-circle" src="http://eastbayfrontrunners.org/img/officers/treasurer.jpg" alt="">
+            <p><strong>TERRY HUDSON</strong></p>
+            <p>Treasurer</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="jumbotron text-center slideanim">
+      <h3>"We want to have have fun, promote lifelong health and fitness, and to create community and camaraderie"</h3>
+    </div>
+
+    <div id="contact" class="container-fluid bg-grey">
+      <h2 class="text-center">CONTACT</h2>
+      <div class="row slideanim">
+    	<div class="col-sm-5">
+    	  <p>Contact us and we'll get back to you within 24 hours.</p>
+    	  <p><span class="glyphicon glyphicon-map-marker"></span> San Francisco/Oakland Bay Area, CA</p>
+    	  <p><span class="glyphicon glyphicon-envelope"></span> ebfrw@yahoo.com</p>
+    	</div>
+    	<div class="col-sm-7">
+    	  <div class="row">
+    		<div class="col-sm-6 form-group">
+    		  <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+    		</div>
+    		<div class="col-sm-6 form-group">
+    		  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+    		</div>
+    	  </div>
+    	  <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+    	  <div class="row">
+    		<div class="col-sm-12 form-group">
+    		  <button class="btn btn-default pull-right" type="submit">Send</button>
+    		</div>
+    	  </div>
+    	</div>
+      </div>
+    </div>
+
+
+    <div id="googleMap" style="height:400px;width:100%;"></div>
+    <script>
+    function myMap() {
+    var myCenter = new google.maps.LatLng(37.809031, -122.281668);
+    var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    var marker = new google.maps.Marker({position:myCenter});
+    marker.setMap(map);
+    }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtJenNLr3Pg0Dz7y5f6apjZKDuffsYf7E&callback=myMap"></script>
+
+
+    <footer class="blog-footer">
+      <p>
+        <a href="#myPage" alt="Back to Top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+      </p>
+      <p>&copy; 2017 EBFRW
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="js/bootstrap.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".showcase a, .navbar a, footer a[href='#myPage'], a[href='#contact']").on('click', function(event) {
+
+       // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 900, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+          });
+        } // End if
+      });
+
+    $(window).scroll(function() {
+      $(".slideanim").each(function(){
+        var pos = $(this).offset().top;
+
+        var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+      });
+    });
+
+
+
+
+    //solution #2
+    $('#nav2').affix({
+      offset: {
+        top: $('#headershowcase').height()
+      }
+});
+
+
+
+  })
+  </script>
+
+  </body>
+</html>
