@@ -30,7 +30,7 @@
     <style>
 
       .showcase {
-          background:url(img/showcase4.jpg) no-repeat center center;
+          background:url(img/showcase1.jpg) no-repeat center center;
                   /*background:url('http://clubfitnesspro.com/wp-content/uploads/2017/03/356a7d_94920426bbdc4f67812b34b227bb3e85.jpg')*/
         /*background:url('http://s3.amazonaws.com/ClubExpressClubFiles/736866/graphics/Gina-Feet-Pic_1710963126.jpg')*/
         /*background: url('http://eastbayfrontrunners.org/img/priderun/2012/DSC_5028.JPG')*/
@@ -41,12 +41,12 @@
         background-size: cover;
       }
 
-      .showcase h1 span, .showcase p span {
+      /*.showcase h1 span, .showcase p span {
         background-color: #4da6ff;
-        /*#800080;*/
+
         opacity: 0.8;
         font-weight:bold;
-      }
+      }*/
 
       nav .container-fluid {
         padding: 0px 50px;
@@ -94,6 +94,26 @@
       /*#nav1 {
         background-color: #941a85
       }*/
+
+      h2 {
+        color: #d08585;
+      }
+
+      @media (max-width: @screen-xs) {
+        body{font-size: 100px;}
+        h2 {
+          color:red;
+        }
+      }
+
+      @media (max-width: @screen-sm) {
+          body{font-size: 14px;}
+      }
+
+
+      h5{
+          font-size: 1.4em;
+      }
 
     </style>
 
@@ -165,27 +185,34 @@
     </nav>
 
     <div id="about" class="container-fluid">
-      <div class="thumbnail">
+      <div class="row">
         <div class="col-sm-6">
-          <h1>About Us</h1>
-          <!-- <h2>We are a <strong>nonprofit</strong> runnign club located in the San Francisco/Oakland Bay area</h2> -->
-          <h4 class="text-uppercase">We are a nonprofit<strong style="color:#941a85;"> running club</strong> located in the San Francisco/Oakland Bay area.</h4>
-          <h4>Our Motto: Exercise. Have Fun!</h4>
-          <h4>Our Mission: Promote running and walking for the LGBTA community.</h4>
+          <h2>Who are we?</h2>
+          <h2>a running club. nonprofit. <br>in the San Francisco/Oakland Bay area.</h2>
+          <!-- <p class="text-uppercase">We are a nonprofit<strong style="color:#941a85;"> running club</strong> located in the San Francisco/Oakland Bay area.</p> -->
+          <p>Our Motto: <strong>Exercise. Have Fun!</strong><p/>
+          <p><strong>Our Mission</strong>: Promote running and walking for the LGBTA community.</p>
           <p>We meet on the east side of San Francisco Bay every <strong style="color:#941a85;">Saturday</strong> morning at <strong style="color:#941a85;">9:00 AM</strong>. Distances range between 3-7 miles for runners and 2-4 miles for walkers.</p>
           <p>We take pride in being friendly and inviting. ANYONE is welcome. <strong style="color:#941a85;">Join us this weekend!</strong></p>
-          <div class="row">
-            <div class="col-sm-6" style='margin-bottom:5px;'>
-              <a href="#contact" class="btn btn-warning btn-lg">ASK US A QUESTION</a>&nbsp;
-            </div>
-            <div class="col-sm-6" style='margin-bottom:5px;'>
-              <a href="#contact" class="btn btn-danger btn-lg">NEXT SATURDAY RUN INFO</a>
-            </div>
-          </div>
+          <a href="#contact" class="btn btn-default btn-lg">Get In touch</a>
         </div>
         <div class="col-sm-6">
-          <div class="thumbnail">
-            <img src="img/collage.jpg">
+          <div class="row">
+            <div class="col-sm-6">
+              <img class="img-responsive"  src="http://eastbayfrontrunners.org/img/EBFRW_2014_05_17.png">
+            </div>
+            <div class="col-sm-6">
+              <img class="img-responsive" src="http://eastbayfrontrunners.org/img/priderun/2015/IMG_6606.jpg">
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col-sm-6">
+              <img class="img-responsive" src="http://eastbayfrontrunners.org/img/priderun/2015/IMG_6934.jpg">
+            </div>
+            <div class="col-sm-6">
+              <img class="img-responsive" src="http://eastbayfrontrunners.org/img/priderun/2015/IMG_7263.jpg">
+            </div>
           </div>
         </div>
       </div>
