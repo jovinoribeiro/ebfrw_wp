@@ -58,6 +58,11 @@ Text Domain: onivoj
   background:url("https://cdn.pixabay.com/photo/2016/09/13/19/31/texture-1668079_960_720.jpg");
 }
 
+/* Make nav wide */
+#nav1 .nav, #nav1 .navbar-header {
+  padding: 5px 0px;
+}
+
 
 
 
@@ -219,6 +224,8 @@ Text Domain: onivoj
   border-bottom: #ccc 1px solid;
   margin-bottom: 30px;
   color: #fff;
+  /*background:url(img/showcase2.jpg) no-repeat center center;*/
+  background-size: cover;
 }
 
 .showcase h1 {
@@ -325,7 +332,12 @@ Text Domain: onivoj
   color: #fff;
 }
 
-
+nav .container-fluid {
+  padding: 0px 50px;
+}
+nav {
+  text-transform: uppercase;
+}
 
 .navbar {
     margin-bottom: 0;
@@ -338,8 +350,16 @@ Text Domain: onivoj
     border-radius: 0;
 }
 
+
+
 .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
+}
+
+.navbar .navbar-brand {
+  color: black !important;
+  font-size:50px;
+  font-weight: bold;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {

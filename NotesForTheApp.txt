@@ -1,0 +1,30 @@
+Good about us
+https://www.yellowleafhammocks.com/pages/about-us
+
+Testimonials can be more like this guys's site
+http://www.gummisig.com/about
+
+Make each section interesting...everything is boring now...
+highlight cool words...make it bold
+shorten sentences...nobody has much attention span
+
+
+<!-- <div class="col-sm-6" style='padding:0px;margin:0px;'>
+              <img class="img-responsive"  src="http://eastbayfrontrunners.org/img/EBFRW_2014_05_17.png">
+            </div>
+            <div class="col-sm-6" style='padding:0px;margin:0px;'>
+              <img class=" img-responsive" src="http://eastbayfrontrunners.org/img/priderun/2015/IMG_6606.jpg">
+            </div>
+          </div>
+          <div class="row" style='padding:0px;margin:0px;'>
+            <div class="col-sm-6" style='padding:0px;margin:0px;'>
+              <img class=" img-responsive" src="http://eastbayfrontrunners.org/img/priderun/2015/IMG_6934.jpg">
+            </div>
+            <div class="col-sm-6" style='padding:0px;margin:0px;'>
+              <img class="img-responsive" src="http://eastbayfrontrunners.org/img/priderun/2015/IMG_7263.jpg">
+            </div>
+          </div> -->
+          <!-- <img class="img-circle img-responsive" src="http://eastbayfrontrunners.org/img/EBFRW_2014_05_17.png"> -->
+
+
+          <!-- <img class="img-rounded img-thumbnail" src="http://eastbayfrontrunners.org/img/EBFRW_2014_05_17.png"> -->
