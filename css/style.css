@@ -10,10 +10,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: onivoj
 */
 
-/*
- * Globals
- */
-
  body {
      font: 400 15px Lato, sans-serif;
      line-height: 1.8;
@@ -23,7 +19,8 @@ Text Domain: onivoj
  h2 {
      font-size: 24px;
      text-transform: uppercase;
-     color: #303030;
+     /*color: #303030; This is dark black*/
+     color: #d08585;
      font-weight: 600;
      margin-bottom: 30px;
  }
@@ -34,311 +31,40 @@ Text Domain: onivoj
      font-weight: 400;
      margin-bottom: 30px;
  }
-
- .container-fluid {
-     padding: 60px 50px;
-     /*padding:200px 50px;*/
-
+ h5{
+     font-size: 1.4em;
  }
 
- .bg-grey {
-     background-color: #f6f6f6;
+ .container-fluid, .container {
+     padding: 60px 50px;
  }
 
  .jumbotron {
-    /*background-color: #4da6ff;*/
-    background-color: #ADD8E6;
-    color: #fff;
-    /*padding: 100px 25px;*/
+    background-color: #4da6ff;
+    color: #d62486; /* purplish */
     margin:0px;
-    font-family: Montserrat, sans-serif;
 }
 
-.1inspiration {
-  background:url("https://cdn.pixabay.com/photo/2016/09/13/19/31/texture-1668079_960_720.jpg");
+.logo, .logo-small {
+  color: #4da6ff;
+}
+.logo-small {
+  font-size: 50px;
+}
+.logo {
+  font-size: 200px;
 }
 
-/* Make nav wide */
-#nav1 .nav, #nav1 .navbar-header {
-  padding: 5px 0px;
-}
-
-
-
-
-
-/*
- * Override Bootstrap's default container.
- */
-
-@media (min-width: 1200px) {
-  .container {
-    width: 970px;
-  }
-}
-
-
-/*
- * Masthead for nav
- */
-
-.blog-masthead {
-  background-color: #428bca;
-  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
-          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
-}
-
-/* Nav links */
-.blog-nav-item {
-  position: relative;
-  display: inline-block;
-  padding: 10px;
-  font-weight: 500;
-  color: #cdddeb;
-}
-.blog-nav-item:hover,
-.blog-nav-item:focus {
-  color: #fff;
-  text-decoration: none;
-}
-
-/* Active state gets a caret at the bottom */
-.blog-nav .active {
-  color: #fff;
-}
-.blog-nav .active:after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 0;
-  margin-left: -5px;
-  vertical-align: middle;
-  content: " ";
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid;
-  border-left: 5px solid transparent;
-}
-
-
-/*
- * Blog name and description
- */
-
-.blog-header {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.blog-title {
-  margin-top: 30px;
-  margin-bottom: 0;
-  font-size: 60px;
-  font-weight: normal;
-}
-.blog-description {
-  font-size: 20px;
-  color: #999;
-}
-
-
-/*
- * Main column and sidebar layout
- */
-
-.blog-main {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-/* Sidebar modules for boxing content */
-.sidebar-module {
-  padding: 15px;
-  margin: 0 -15px 15px;
-}
-.sidebar-module-inset {
-  padding: 15px;
-  background-color: #f5f5f5;
-  border-radius: 4px;
-}
-.sidebar-module-inset p:last-child,
-.sidebar-module-inset ul:last-child,
-.sidebar-module-inset ol:last-child {
-  margin-bottom: 0;
-}
-
-
-/* Pagination */
-.pager {
-  margin-bottom: 60px;
-  text-align: left;
-}
-.pager > li > a {
-  width: 140px;
-  padding: 10px 20px;
-  text-align: center;
-  border-radius: 30px;
-}
-
-
-/*
- * Blog posts
- */
-
-.blog-post {
-  margin-bottom: 60px;
-}
-.blog-post-title {
-  margin-bottom: 5px;
-  font-size: 40px;
-}
-.blog-post-meta {
-  margin-bottom: 20px;
-  color: #999;
-}
-
-
-/*
- * Footer
- */
-
-.blog-footer {
-  padding: 40px 0;
-  color: #999;
-  text-align: center;
-  background-color: #f9f9f9;
-  border-top: 1px solid #e5e5e5;
-}
-.blog-footer p:last-child {
-  margin-bottom: 0;
-}
-
-/*
-*Custom styles
-*
-*/
-
-.showcase {
-  height: 600px;
-  padding: 100px 20px;
-  text-align:center;
-  border-bottom: #ccc 1px solid;
-  margin-bottom: 30px;
-  color: #fff;
-  /*background:url(img/showcase2.jpg) no-repeat center center;*/
-  background-size: cover;
-}
-
-.showcase h1 {
-  font-size: 55px;
-  padding-bottom: 20px;
-  color: #fff;
-}
-
-.showcase p {
-  font-size: 20px;
-  margin-bottom: 50px;
-}
-
-.boxes {
-  text-align:center;
-  background: #fff;
-  margin-bottom: 30px;
-}
-
-.boxes .fa {
-  font-size: 45px !important;
-  margin-bottom:10px;
-}
-
-.box {
-  padding:15px;
-  border:#ccc 1px solid;
-}
-
-.blog-nav li a {
-  color: #fff;
-}
-
-.blog-nav li a:hover {
-  color: #666;
-}
-
-.blog-nav .dropdown-menu a {
-  color: black;
-}
-
-.post-thumb img {
-  widht:100%;
-  height: auto;
-  margin-bottom: 8px;
-}
-
-.comments {
-  border: 1px #ccc solid;
-  padding:  10px;
-  margin-bottom: 20px;
-  margin-top: 10px;
-}
-
-.comments h3, .comments h2 {
-    background: #428bca;
-    color: #fff;
-    padding: 5px;
-}
-
-.comment-body {
-  border:#ccc solid 1px;
-  margin-bottom: 10px;
-  padding: 20px 10px;
-}
-
-.comment-meta {
-  background: #428bca;
-  color: #fff;
-  padding: 10px;
-  overflow: auto;
-}
-
-.comment-meta a {
-  color: #fff;
-}
-.comment-meta img {
-  float: left;
-  margin-right: 10px;
-}
-
-.comment-reply-link {
-  background: #428bca;
-  color: #fff;
-  display: inline-block;
-  padding: 10px 15px;
-}
-
-.comment-form input, .comment-form textarea {
-  width: 100%;
-  padding: 4px;
-  border: #ccc solid 1px;
-  margin-bottom: 15px;
-}
-
-.post-gallery {
-  background-color: #333333;
-  color: #fff;
-  padding:10px;
-  text-align:center;
-}
-
-.post-gallery h2 {
-  color: #fff;
-}
-
-nav .container-fluid {
-  padding: 0px 50px;
-}
+/* Start - Navigation */
 nav {
   text-transform: uppercase;
 }
-
+nav .container-fluid {
+  padding: 0px 50px;
+}
+.navbar-fixed-top {
+  top:0;
+ }
 .navbar {
     margin-bottom: 0;
     background-color: #4da6ff;
@@ -349,30 +75,32 @@ nav {
     letter-spacing: 4px;
     border-radius: 0;
 }
-
-
-
-.navbar li a, .navbar .navbar-brand {
+.navbar-brand {
+  color: #d62486 !important;
+  font-size:25px;
+  font-weight: bolder;
+}
+.navbar li a {
     color: #fff !important;
 }
-
-.navbar .navbar-brand {
-  color: black !important;
-  font-size:50px;
-  font-weight: bold;
-}
-
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #4da6ff !important;
     background-color: #fff !important;
 }
-
 .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #fff !important;
 }
+/* use this if i want a bar to be fixed when it reaches top */
+/*#nav2.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}*/
+/* End - Nav Bar */
 
-
+/* Start - Code to make front page slide nicelly when using anchors */
 .slideanim {visibility:hidden;}
 .slide {
     /* The name of the animation */
@@ -405,4 +133,30 @@ nav {
         opacity: 1;
         -webkit-transform: translateY(0%);
     }
+}
+/* End - Code to make front page slide nicelly when using anchors */
+
+/* Start - Responsive Code */
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+  }
+}
+
+@media (max-width: @screen-xs) {
+  body{font-size: 100px;}
+  h2 {
+    color:red;
+  }
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
 }
