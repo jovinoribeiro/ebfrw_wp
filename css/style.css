@@ -17,37 +17,61 @@ Text Domain: onivoj
  }
 
  h2 {
-     font-size: 24px;
+   color:#773344;
+ }
+
+ h3, h4 {
+  color: #E85F5C;
+}
+.navbar-brand {
+  color: #E85F5C !important;
+}
+.jumbotron {
+   margin:0px;
+   background-color: #E85F5C;
+}
+
+.logo, .logo-small {
+  color: #773344;
+}
+
+.navbar {
+  background-color: #773344;
+}
+.navbar li a {
+    color: #fff !important;
+}
+
+h2 {
+  font: 600 30px Montserrat, sans-serif;
+}
+
+h3 {
+  font: 600 24px Montserrat, sans-serif;
+}
+
+ h2, h3 {
+
      text-transform: uppercase;
-     /*color: #303030; This is dark black*/
-     color: #d08585;
-     font-weight: 600;
-     margin-bottom: 30px;
  }
  h4 {
-     font-size: 19px;
+     font-size: 400 19px;
      line-height: 1.375em;
-     color: #303030;
-     font-weight: 400;
-     margin-bottom: 30px;
  }
+ .logo, .logo-small {
+   border:5px solid transparent;
+ }
+
  h5{
      font-size: 1.4em;
  }
-
+ h2, h4 {
+   margin-bottom: 30px;
+ }
  .container-fluid, .container {
      padding: 60px 50px;
  }
 
- .jumbotron {
-    background-color: #4da6ff;
-    color: #d62486; /* purplish */
-    margin:0px;
-}
-
-.logo, .logo-small {
-  color: #4da6ff;
-}
 .logo-small {
   font-size: 50px;
 }
@@ -67,7 +91,6 @@ nav .container-fluid {
  }
 .navbar {
     margin-bottom: 0;
-    background-color: #4da6ff;
     z-index: 9999;
     border: 0;
     font-size: 12px;
@@ -76,15 +99,12 @@ nav .container-fluid {
     border-radius: 0;
 }
 .navbar-brand {
-  color: #d62486 !important;
   font-size:25px;
   font-weight: bolder;
 }
-.navbar li a {
-    color: #fff !important;
-}
+
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #4da6ff !important;
+    color: #E85F5C !important;
     background-color: #fff !important;
 }
 .navbar-default .navbar-toggle {
