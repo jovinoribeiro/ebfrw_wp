@@ -29,15 +29,14 @@
 
       .showcase {
         height: 600px;
-        padding: 150px 20px;
+        padding: 180px 20px;
         text-align:center;
         border-bottom: #ccc 1px solid;
         margin-bottom: 30px;
         color: #fff;
         background:url('http://s3.amazonaws.com/ClubExpressClubFiles/736866/graphics/Gina-Feet-Pic_1710963126.jpg')
-        /*background:url('img/showcase.jpg')*/
         no-repeat center center;
-        background-size: cover;
+        /*background-size: cover;*/
       }
       .showcase h1 {
         font-size: 55px;
@@ -51,14 +50,14 @@
         font-weight: bolder;
       }
       .bg-grey {
-           /*background-color: #f6f6f6;*/
+
        }
     </style>
 
   </head>
 
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-    <div id="headershowcase">
+    <div id="headershowcase" >
 
     <!-- <nav id="nav1" class="navbar navbar-default" role="navigation">
       <div class="container-fluid">
@@ -89,8 +88,8 @@
       </div>
     </nav> -->
 
-    <nav id="nav1" class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container-fluid text-center">
+    <nav  id="nav1" class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div  class="container-fluid text-center">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
@@ -101,19 +100,19 @@
           </button>
           <a class="navbar-brand" href="#myPage">
             <!-- <img src="http://eastbayfrontrunners.org/img/ebfrw_logo.png" width="70%" heigth="70%" style="margin-top:-20px;"> -->
-            EBFRW
+            <span style='color: #fcc300'>EB</span><span style='color:#fff'>FRW</span>
           </a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
           <ul class="nav navbar-nav">
             <li><a href="#about">WHO WE ARE</a></li>
-            <!-- <li><a href="#saturday_run">SATURDAY RUN</a></li> -->
             <li><a href="#activities">WHAT WE DO</a></li>
             <li><a href="#priderun">Pride Run</a></li>
             <li><a href="#membership">Membership</a></li>
             <li><a href="#boardmembers">Board Members</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>Calendar</a><li>
             <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i>Blog</a></li>
             <li><a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i> Contact Us</a></li>
             <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -123,42 +122,46 @@
     </nav>
 
     <section class="showcase" style='margin-bottom:0px;'>
-      <div class="container-fluid" >
-        <h1>E.B.F.R.W</span></h1>
-        <!-- <h3>EAST BAY FRONT RUNNERS AND WALKERS</h3> -->
-        <h3 style='margin-top:-10px;'>RUN. WALK. EAT. BE HEALTHY. HAVE FUN</h3>
-        <br>
-        <a href="#about" class="btn btn-danger btn-lg">ABOUT US<BR>
-            <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
-        </a>
+      <div class="container" >
+        <div class="row">
+          <div class="col-sm-12">
+            <img src="http://eastbayfrontrunners.org/img/ebfrw_logo.png">
+            <!-- <a href="#about" class="btn btn-warning btn-lg"  >
+                <span class="glyphicon glyphicon-menu-down" aria-hidden="true" style='font-weight:bold;color: #ef3f9c;'></span>
+            </a> -->
+          </div>
+        </div>
+
       </div>
     </section>
   </div>
 
-  <!-- <div class="container-fluid bg-grey" style='padding:0px 0px;color:white;'>
-    <div class="row text-center bg-primary" style='padding:10px;'>
-      <div class="col-sm-4">
-        <h4 style='margin-bottom:0px;color:white;'>EAST BAY FRONT RUNNERS AND WALKERS</h4>
+  <div class="container-fluid" style='padding:0px 0px;'>
+    <div class="row text-center" style='background-color: #fcc300; padding:10px;'>
+      <div class="col-sm-5">
+        <h4 style='margin-bottom:0px; font-size:30px;'>WE RUN. WE WALK. WE HAVE FUN.</h4>
       </div>
-      <div class="col-sm-4">
-        <h4 style='margin-bottom:0px;'>WE RUN. WE WALK. WE HAVE FUN.</h4>
+      <div class="col-sm-2">
+        <i class="fa fa-heartbeat" style='font-size:100px;color: #ef3f9c;' aria-hidden="true"></i>
       </div>
-      <div class="col-sm-4">
-        <h4 style='margin-bottom:0px;'>Next Saturday Run is @ Lake Merrit</h4>
+      <div class="col-sm-5">
+        <h4 style='margin-bottom:0px; font-size:30px;'>NEXT SATURDAY RUN IS AT LAKE MERRITT&nbsp;<a href="#contact" class="btn btn-default btn-lg">Directions</a>
+          <!-- <a href='#' style='color:#fff; font-weight:bold; '>Directions</a> -->
+          </h4>
       </div>
     </div>
-  </div> -->
+  </div>
 
   <div id="about" class="container">
       <div class="row">
         <div class="col-sm-5" >
-          <h2>Who are we?</h2>
+          <h2>Who we are</h2>
           <h3>a running club. nonprofit. <br>located in the San Francisco/Oakland Bay area.</h3>
           <!-- <p class="text-uppercase">We are a nonprofit<strong style="color:#941a85;"> running club</strong> located in the San Francisco/Oakland Bay area.</p> -->
           <p><strong>Our Motto:</strong> Exercise. Be Healthy. Have Fun!<p/>
           <p><strong>Our Mission</strong>: Promote running and walking for the LGBTA community. ANYONE is welcome.</p>
-          <p><strong>Where do we meet?</strong> On the east side of San Francisco Bay every <strong style="color:#941a85;">Saturday</strong> morning at <strong style="color:#941a85;">9:00 AM</strong>. Distances range between 3-7 miles for runners and 2-4 miles for walkers.</p>
-          <p><strong style="color:#941a85;">Join us this weekend!</strong></p>
+          <p><strong>Where do we meet?</strong> On the east side of San Francisco Bay every <strong>Saturday</strong> morning at <strong style="color:#941a85;">9:00 AM</strong>. Distances range between 3-7 miles for runners and 2-4 miles for walkers.</p>
+          <p><strong>Join us this weekend!</strong></p>
           <a href="#contact" class="btn btn-default btn-lg">Get In touch</a>
         </div>
         <div class="col-sm-7">
@@ -195,97 +198,103 @@
       </div>
     </div>
 
-    <div id="saturday_run" class="jumbotron text-center">
-      <h2>OUR NEXT SATURDAY RUN AND WALK IS @ <span style='color:#fff'>LAKE MERRIT</span>
-      <a href-"#" class="btn btn-warning">&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; Directions</i></a></h2>
-    </div>
+    <hr>
 
-    <div id="activities" class="container-fluid text-center bg-grey slideanim">
+    <div id="activities" class="container-fluid text-center">
       <h2>What we do</h2>
-      <!-- <h4>Lots of Fun things</h4> -->
+      <h3>Lots of Fun things</h3>
       <br />
       <div class="row ">
         <div class="col-sm-4">
           <i class="fa fa-calendar logo-small" aria-hidden="true"></i>
-          <h4>SATURDAY RUNS</h4>
+          <h3>SATURDAY RUNS</h3>
           <p>Our running and walking events are non-competitive and self-paced. Runners complete between 3 to 7 miles, and walkers 2 to 4 miles. It usually lasts 45 minutes to one hour. All paths and trails are easily accessible to runners and walkers alike.</p>
         </div>
         <div class="col-sm-4">
           <i class="fa fa-cutlery logo-small" aria-hidden="true"></i>
-          <h4>BRUNCH</h4>
+          <h3>BRUNCH</h3>
           <p>We follow our exercise with brunch at one of several great local restaurants.</p>
         </div>
         <div class="col-sm-4">
           <i class="fa fa-glass logo-small" aria-hidden="true"></i>
-          <h4>SOCIAL GATHERINGS</h4>
+          <h3>SOCIAL GATHERINGS</h3>
           <p>While the Saturday morning run/walk is our club’s staple, we also enjoy pot lucks, movie nights, museum tours, ballgames, wine tastings, and occasional weekend getaways.</p>
         </div>
       </div>
-    </div>
-
-    <div class="container-fluid text-center bg-grey slideanim">
-      <!-- <h2>WATCH US IN ACTION</h2>
-      <h4>Us out having fun</h4> -->
       <div class="row text-center ">
         <div class="col-sm-4">
           <div class="thumbnail">
-            <img src="http://eastbayfrontrunners.org/img/anniversary/an_7.jpg">
-            <p><strong>30th Anniversary Party</strong</p>
-            <p>Smile everyone</p>
+            <img src="img/wd1.jpg">
+            <p>Lake Merrit</p>
+            <p>Strong folks</p>
           </div>
         </div>
         <div class="col-sm-4">
           <div class="thumbnail">
-            <img src="http://eastbayfrontrunners.org/img/anniversary/an_2.jpg">
-            <p><strong>30th Anniversary Party</strong</p>
-            <p>Having a good time</p>
+            <img src="img/wd2.jpg">
+            <p>Post run brunch</p>
+            <p>Hungry</p>
           </div>
         </div>
         <div class="col-sm-4">
           <div class="thumbnail">
-            <img src="http://eastbayfrontrunners.org/img/anniversary/an_5.jpg">
-            <p><strong>30th Anniversary Party</strong</p>
-            <p>Hmm. Yummy.</p>
+            <img src="img/wd3.jpg">
+            <p>30th Anniversary party</p>
+            <p>Beautiful people</p>
           </div>
         </div>
       </div>
     </div>
 
+    <hr />
+
     <div id="priderun" class="container-fluid">
+      <div class="row text-center">
+        <h2>Pride Run</h2>
+      </div>
       <div class="row slideanim">
         <div class="col-sm-4">
-          <div class="thumbnail">
+          <div class="row text-center thumbnail">
             <img class="img-circle img-responsive" style="max-width: 70%; height:50%;" src="http://eastbayfrontrunners.org/img/flyer_no_date.jpg">
           </div>
         </div>
         <div class="col-sm-8">
-          <h2>Pride Run</h2>
-          <h4>EBFRW's Annual Pride Run and Walk is scheduled for Oct. 14th, 2017 at 9AM, and we want you to be a part of it!</h4>
-          <p>Join us at the recently renovated and beautiful Lake Merritt in downtown Oakland for a 10K run, 5K run, or 5K walk.</p>
-          <p>Every registered participant will receive a pair of rainbow-colored EBFRW running socks. Don't miss out!</p>
+          <h3>Our annual fundraising 10K run, 5K run, 5K walk race event. </h3>
+          <p><strong>When?</strong>&nbsp;October 14th, 2017 at 9AM</p>
+          <p><strong>Where?</strong>&nbsp;At the beautiful Lake Merritt in downtown Oakland</p>
+          <p>Club Members, volunteers, sponsors and runners like you are the elements that makes this such a special event.
+            Funds raised are distributed amongst local organizations throughout the Bay Area.
+            <p>
+          <p>Join us for this fun and non competitive event (well, maybe just a bit competitive). Stay afterwards and take in the community spirit and camaraderie of the East Bay's oldest pride race.</p>
+          <p>Participants receive a pair of rainbow-colored EBFRW running socks. Don't miss out!</p>
           <a href="priderun" class="btn btn-info btn-lg">More Information</a>
         </div>
       </div>
     </div>
 
-    <div id="membership" class="container-fluid bg-grey">
+    <hr />
+
+    <div id="membership" class="container">
       <div class="row slideanim">
         <div class="col-sm-8">
           <h2>Membership</h2>
-          <h4>Membership in East Bay Front Runners and Walkers is open to everyone.</h4>
+          <h3>Membership in East Bay Front Runners and Walkers is open to everyone.</h3>
+          <p>Membership Benefits</p>
+          <ul>
+            <li>Discount at our local partners</li>
+            <li>Access to our Yahoo Group</li>
+            <li>Access to Members directory</li>
+          </ul>
           <p>EBFRW members have access to our Members Only Yahoo Group, members directory, and discounts at local partner businesses.</p>
           <a href="membership" class="btn btn-info btn-lg">More Information</a>
         </div>
         <div class="col-sm-4">
           <i class="fa fa-id-card logo" aria-hidden="true"></i>
-
-          <!-- <div class="thumbnail">
-            <img class="img-rounded" style="max-width: 70%; height:50%;"
-              src="http://heard.org/home/wp-content/uploads/2013/04/membership_featuredImage_web.png">
-          </div> -->
         </div>
       </div>
     </div>
+
+    <hr />
 
     <div id="boardmembers" class="container-fluid text-center">
       <h2>Board Members</h2>
@@ -329,12 +338,15 @@
 
     </div>
 
-    <div class="jumbotron text-center slideanim">
-      <h2>"We want to have have fun, promote lifelong health and fitness, and to create community and camaraderie"</h2>
+    <div class="jumbotron text-center slideanim" id='inspiration_msg' style='padding:30px;'>
+      <h3 style='font-weight:bold;color: #002470'>
+        We want to have have fun, promote lifelong health and fitness, and to create community and camaraderie
+        <br>
+      </h3>
     </div>
 
     <div id="contact" class="container-fluid bg-grey">
-      <h2 class="text-center">h2.CONTACT</h2>
+      <h2 class="text-center">CONTACT</h2>
       <div class="row slideanim">
     	<div class="col-sm-5">
     	  <p>Contact us and we'll get back to you within 24 hours.</p>
@@ -359,8 +371,6 @@
     	</div>
       </div>
     </div>
-
-
     <div id="googleMap" style="height:400px;width:100%;"></div>
     <script>
     function myMap() {
@@ -373,7 +383,6 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtJenNLr3Pg0Dz7y5f6apjZKDuffsYf7E&callback=myMap"></script>
 
-
     <footer class="blog-footer text-center">
       <p>
         <a href="#myPage" alt="Back to Top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
@@ -381,9 +390,11 @@
       <p>&copy; 2017 EBFRW</p>
     </footer>
 
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <script src="js/bootstrap.js"></script>
+    <!-- <script src="js/script.js"></script> -->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
 
@@ -413,16 +424,16 @@
         } // End if
       });
 
-    $(window).scroll(function() {
-      $(".slideanim").each(function(){
-        var pos = $(this).offset().top;
-
-        var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
-        }
-      });
-    });
+    // $(window).scroll(function() {
+    //   $(".slideanim").each(function(){
+    //     var pos = $(this).offset().top;
+    //
+    //     var winTop = $(window).scrollTop();
+    //     if (pos < winTop + 600) {
+    //       $(this).addClass("slide");
+    //     }
+    //   });
+    // });
 
 
 
