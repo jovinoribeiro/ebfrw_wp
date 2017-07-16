@@ -17,26 +17,39 @@ Text Domain: onivoj
  }
 
  h2 {
-   color:#773344;
+   color:#ef3f9c;
  }
 
- h3, h4 {
-  color: #E85F5C;
+ h3 {
+  color: #fcc300;
+}
+
+h4 {
+  color: #fff;
 }
 .navbar-brand {
   color: #E85F5C !important;
 }
 .jumbotron {
    margin:0px;
-   background-color: #E85F5C;
+   padding: 5px 0px;
+   background-color: #fcc300;
 }
 
-.logo, .logo-small {
-  color: #773344;
+.jumbotron h4 {
+  color: #fff;
+}
+
+.logo-small {
+  color: #fcc300;
+}
+
+.logo {
+  color: #002470;
 }
 
 .navbar {
-  background-color: #773344;
+  background-color: #002470;
 }
 .navbar li a {
     color: #fff !important;
@@ -79,6 +92,12 @@ h3 {
   font-size: 200px;
 }
 
+#inspiration_msg {
+  background:url('https://runningreluctant.files.wordpress.com/2016/05/run-road.jpg?w=900')
+  no-repeat center center;
+  background-size:cover;
+}
+
 /* Start - Navigation */
 nav {
   text-transform: uppercase;
@@ -94,7 +113,7 @@ nav .container-fluid {
     z-index: 9999;
     border: 0;
     font-size: 12px;
-   line-height: 1.42857143;
+    line-height: 1.42857143;
     letter-spacing: 4px;
     border-radius: 0;
 }
@@ -117,11 +136,11 @@ nav .container-fluid {
     top: 0;
     width: 100%;
     z-index:10;
-}*/
+}*/:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 /* End - Nav Bar */
 
 /* Start - Code to make front page slide nicelly when using anchors */
-.slideanim {visibility:hidden;}
+/*.slideanim {visibility:hidden;}*/
 .slide {
     /* The name of the animation */
     animation-name: slide;
